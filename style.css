@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif; /*Red Hat Display*/
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #373b42;
+}
+
+.bg-darker{
+    background-color: #2b3445;
+}
+
+.text-darkorg{
+    color: #fe696a !important;
+}
+
+.opacity-50 {
+    opacity: .5 !important;
+}
+
+#azm-websites{
+    background-color: #fff6ee;
+}
+
+#azm-websites .title-text{
+    bottom: 0;
+    left: 0;
+    background-color: rgb(34 35 38 / 65%);
+    color: #f1f3f7;
+    font-size: 2.2rem;
+    width: 98%;
+    height: 50px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 10px;
+    margin: 0 1% 4px 1%;
+    text-shadow: 3px 2px 3px #3b4040;
+}
+
+#azm-websites .desc-text{
+}
+
+#azm-websites img{
+    border: solid 2pt #e7e7e7;
+    border-radius: 2px;
+}
