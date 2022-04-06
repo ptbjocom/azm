@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--External Links-->
+    <link rel="stylesheet" href=".././bootstrap.min.css">
+    <link href=".././assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href=".././assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href=".././style.css">
+    <title>AZM Trading</title>
+</head>
+
+<body>
+    <azm-header></azm-header>
+    <!-- Gallery -->
+    <div class="breadcrumb-section">
+    </div>
+    <section class="container m-auto">
+        <h1 class="fw-bold p-2 mt-2">
+            Spare-parts
+        </h1>
+        <h5>We provide spare-parts</h5>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="../assets/images/spare-parts/air-cooler-spare-part.jpg" class="w-100 shadow rounded mb-4" />
+    
+                <img src="../assets/images/spare-parts/auto-spare-car-parts2.jpg" class="w-100 shadow rounded mb-4" />
+            </div>
+    
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../assets/images/spare-parts/cold-rolled-steel-coil2.jpg" class="w-100 shadow rounded mb-4" />
+    
+                <img src="../assets/images/spare-parts/computer-hardware2.jpg" class="w-100 shadow rounded mb-4" />
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../assets/images/spare-parts/lighting-cables2.jpg" class="w-100 shadow rounded mb-4" />
+                <img src="../assets/images/spare-parts/tire2.jpg" class="w-100 shadow rounded mb-4" />
+    
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <azm-footer></azm-footer>
+</body>
+
+</html>
+
+
+<script src=".././bootstrap.min.js"></script>
+<script src=".././assets/vendor/jquery/jquery.min.js"></script>
+<script src=".././assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src=".././assets/vendor/aos/aos.js"></script>
+<script type="module" src=".././main.js"></script>
+
+<script>
+    AOS.init({ once: true, easing: 'ease' });
+</script>
+
+<script>
+    $(function () {
+        // Get clickable link
+        $("a").click(function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                // Store link's hash value into variable
+                const hash = this.hash;
+                // console.log(hash)
+
+                // Animate html & body to the hash value position
+                $("html, body").animate(
+                    {
+                        scrollTop: $(hash).offset().top - 100// - 100 if you wish
+                    },
+                    800
+                );
+            }
+        });
+    });
+
+</script>

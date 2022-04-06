@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--External Links-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link href="./assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>AZM Trading</title>
+</head>
+
+<body>
+    <azm-header></azm-header>
+    <div class="row container m-auto">
+        <div class="col-md-6">
+           <h2 class="fw-bold my-3"> Azem Al-Safwa Group</h2>
+            <p>
+                Azem Al-Safwa Group, recognized as an emerging, competitive and reliable service provider
+            to multiple industrialsegmants, was established in 2015 in Dammam, Eastern Province, Kingdom of Saudi
+            Arabia.
+            Azem's services and products are focused on a wide spectrum of industries, such as oil and gas, energy,
+            construction, mechanical and industrial engineering, logistics and supply chain, and information technology,
+            Azem is specialized in most aspects of these industries that encompass facility construction, equipment
+            procuremnt, contarct management, project development and management, facility management, plant operation
+            and maintenance, pipeline construction and maintenance, disaster recovery and storage management,
+            calibration and management consultation. Azem offers unparalleled, technologically and qualitatively
+            superior services and products to its customers through a professionally under the leadership of its Chief
+            Executive Officer who has extensive professional experience in the above industries. Azem's capabilities are
+            further enhanced and complemented by a selective blend of globally recognized and competent business
+            partners who have acquired remarkable knowledge and experience and achieved significant accomplishments in
+            their respective fields of expertise.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="./assets/images/trading/tower.jpg" class="img-fluid">
+        </div>
+    </div>
+    <azm-footer></azm-footer>
+</body>
+
+</html>
+
+
+<script src="./bootstrap.min.js"></script>
+<script src="./assets/vendor/jquery/jquery.min.js"></script>
+<script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="./assets/vendor/aos/aos.js"></script>
+<script type="module" src="./main.js"></script>
+
+<script>
+    AOS.init({ once: true, easing: 'ease' });
+</script>
+
+<script>
+    $(function () {
+        // Get clickable link
+        $("a").click(function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                // Store link's hash value into variable
+                const hash = this.hash;
+                // console.log(hash)
+
+                // Animate html & body to the hash value position
+                $("html, body").animate(
+                    {
+                        scrollTop: $(hash).offset().top - 100// - 100 if you wish
+                    },
+                    800
+                );
+            }
+        });
+    });
+
+</script>
