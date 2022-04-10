@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement{
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container px-5">
             <a class="navbar-brand" href="#!">
-                <img src="assets/images/logo" alt="">
+                <img src="assets/images/logo.jpg" alt="" class="img-fluid logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -47,7 +47,7 @@ class MyFooter extends HTMLElement{
               <div class="d-flex"><i class="fas fa-envelope-open-text text-darkorg" style="font-size: 2.25rem;"></i>
                 <div class="ps-3">
                   <h6 class="fs-base text-white fw-bold mb-1">Our Email</h6>
-                  <p class="mb-0 fs-ms text-light opacity-50">info@azzeem.com</p>
+                  <p class="mb-0 fs-ms text-light opacity-50">info@ghazaal-sa.com</p>
                 </div>
               </div>
             </div>

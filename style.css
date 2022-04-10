@@ -50,6 +50,11 @@ a {
     text-shadow: 3px 2px 3px #3b4040;
 }
 
+@media (max-width : 992px) {
+
+    #azm-websites .title-text{font-size:1.7rem;}
+}
+
 #azm-websites .desc-text{
 }
 
@@ -177,4 +182,10 @@ p,
 
 .icon-black {
     color: #000
+}
+
+@media(max-width:400px){
+.logo{
+    width:190px;
+}
 }
