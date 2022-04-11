@@ -184,7 +184,7 @@ p,
     color: #000
 }
 
-@media(max-width:400px){
+@media(max-width:600px){
 .logo{
     width:190px;
 }
