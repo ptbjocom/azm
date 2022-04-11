@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement{
         <!--navbar-dark bg-dark-->
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container px-5">
-            <a class="navbar-brand" href="#!">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.jpg" alt="" class="img-fluid logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -14,7 +14,7 @@ class MyHeader extends HTMLElement{
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#ptb-features">PTB Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ptb/index.html">PTB Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
