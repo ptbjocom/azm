@@ -4,8 +4,8 @@ class MyHeader extends HTMLElement{
         <!--navbar-dark bg-dark-->
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container px-5">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.jpg" alt="" class="img-fluid logo">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/logo.jpg" alt="" class="img-fluid logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
